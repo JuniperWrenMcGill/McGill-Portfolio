@@ -59,3 +59,14 @@ nav ul li a::after {
 nav ul li a:hover::after{
     width: 100%;
 }
+
+/* banner styling */
+
+.banner-text {
+    color: #697359;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 55%;
+    margin-top: -14%;
+}
+

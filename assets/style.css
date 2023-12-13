@@ -70,3 +70,24 @@ nav ul li a:hover::after{
     margin-top: -14%;
 }
 
+/* about me stying */
+
+main {
+    color: #fff;
+}
+
+.About-Me h2 {
+    text-decoration: none;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: 200px;
+    margin-bottom: -7%;    
+}
+
+.About-Me p {
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 160px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}

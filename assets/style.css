@@ -153,3 +153,49 @@ footer h2 {
 }
 
 /* styling for contact me header and buttons  */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    margin-top: 10%;
+}
+
+footer h2 {
+    color: #fff;
+    width: 400px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 40px;
+}
+footer ul li {
+    display:inline-block;
+    list-style: none;
+    margin: 10px,20px;
+    padding-left: 10px;
+    padding-right: 120px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size:25px;
+    position: relative;
+}
+
+footer ul li a::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+footer ul li a:hover::after{
+    width: 100%;
+}

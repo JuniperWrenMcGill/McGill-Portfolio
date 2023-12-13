@@ -120,3 +120,36 @@ main {
     position: absolute;
     background-color: #ffb45f;
 }
+
+/* styling for future projects */
+
+.future-projects {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.future-projects img {
+    width: 250px;
+    height: 200px;
+    margin-left: 15%;
+    margin-right:15%;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    margin-top: 10%;
+}
+
+footer h2 {
+    color: #fff;
+    width: 400px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+/* styling for contact me header and buttons  */

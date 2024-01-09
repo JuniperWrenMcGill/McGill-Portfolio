@@ -95,12 +95,14 @@ main {
 /* latest project styling */
 
 .Work img {
-    border: 40px #fff; 
+    display: flex;
     margin-left: 590px;
     margin-right: 50px;
     margin-top: 10%;
-    width: 364px;
-    height:200px ;
+    width: 333px; /* Adjust the width for the icon size */
+    height: auto; /* Auto height to maintain the aspect ratio */
+    border: 5px solid #fff; /* Add a border with a color of your choice */
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
     
 }
 
@@ -123,17 +125,22 @@ main {
 
 /* styling for future projects */
 
-.future-projects {
-    display:flex;
+.projects {
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 80px;
 }
-.future-projects img {
-    width: 250px;
-    height: 200px;
-    margin-left: 15%;
-    margin-right:15%;
+
+.projects img {
+    width: 333px;
+    height: auto;
+    margin: 20px; /* Add some margin for better spacing */
+    border: 5px solid #fff; /* Add a border with a color of your choice */
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+}
+.project p {
+    content:center;
 }
 
 footer {
